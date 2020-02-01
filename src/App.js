@@ -22,6 +22,8 @@ function App() {
   const [email, setEmail] = useState('');
   const [buttonColor, setButtonColor] = useState('blue');
 
+  const [futurama, setFuturama] = useState([]);
+
   const [test, setTest] = useState([{
     key1: "Hello",
     key2: "World"
@@ -37,9 +39,9 @@ function App() {
   },[])
 
   const providerValue = useMemo(() => ({ 
-      name, setName, email, setEmail, test, setTest, logo, buttonColor, setButtonColor
+      name, setName, email, setEmail, test, setTest, logo, buttonColor, setButtonColor, futurama, setFuturama
     }), [
-      name, setName, email, setEmail, test, setTest, buttonColor, setButtonColor
+      name, setName, email, setEmail, test, setTest, buttonColor, setButtonColor, futurama, setFuturama
     ]);
 
   return (

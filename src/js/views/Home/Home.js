@@ -9,8 +9,8 @@ const Home = () => {
 
     return (
         <>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center">
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container text-center">
                 
             <h1>Home page</h1>
 
