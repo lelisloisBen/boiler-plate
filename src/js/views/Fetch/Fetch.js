@@ -29,7 +29,7 @@ const Fetch = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         {futurama.map((item, index) => {
                             return (
                                 <div key={index}>
