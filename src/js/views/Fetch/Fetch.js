@@ -5,6 +5,12 @@ const Fetch = () => {
 
     const fetchHandler = () => {
         console.log('helooo');
+        fetch('http://futuramaapi.herokuapp.com/api/v2/characters')
+            .then(res => res.json())
+            .then(res => {
+                console.log(res);
+                })
+            .catch(error => console.log(error));
     }
 
     return (
