@@ -1,4 +1,4 @@
-.blackBg {
-    background-color: black;
-    color: white;
+.mainDiv {
+    min-height: 400px;
+    padding: 20px;
 }
