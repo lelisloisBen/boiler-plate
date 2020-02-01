@@ -12,6 +12,7 @@ import logo from '../src/img/icon.png';
 const NotFound = lazy(() => import('./js/views/NotFound/NotFound'));
 const Home = lazy(() => import('./js/views/Home/Home'));
 const Demo = lazy(() => import('./js/views/Demo/demo'));
+const Fetch = lazy(() => import('./js/views/Fetch/Fetch'));
 
 
 
@@ -50,6 +51,7 @@ function App() {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/demo" component={Demo} />
+                <Route path="/fetch" component={Fetch} />
                 <Route render={() => <NotFound/>} />
               </Switch>
             </section>

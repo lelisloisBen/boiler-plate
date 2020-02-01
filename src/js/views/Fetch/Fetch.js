@@ -3,9 +3,15 @@ import styles from './Fetch.module.css';
 
 const Fetch = () => {
     return (
-        <>
-            here we fetch
-        </>
+        <div className={styles.blackBg}>
+            <div className="container">
+                <div className="row">
+                    <div className="col text-center">
+                        <button className="btn btn-warning" >Click To Fecth</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 
