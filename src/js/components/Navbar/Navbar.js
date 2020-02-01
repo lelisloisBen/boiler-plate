@@ -12,12 +12,15 @@ const MyNavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <Link to="/"> <button className="btn btn-primary m-1" >Home</button>  </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/demo"><button className="btn btn-primary m-1" >Demo</button></Link>
-                    </li>
+                        <li className="nav-item">
+                            <Link to="/"> <button className="btn btn-primary m-1" >Home</button>  </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/demo"><button className="btn btn-primary m-1" >Demo</button></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/fetch"><button className="btn btn-primary m-1" >Fetch</button></Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
