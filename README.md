@@ -15,5 +15,15 @@ Once you clicked submit, you will be send to home page.
 
 The states are available in all the views.
 
+The image is imported in the app.js and we can access everywhere, any views of the project.
+
+I add a page called Fetch where I fetch from futurama's API.
+
+all the data from this API is accessible in all the project too.
+
+If you have any questions feel free to reach.
+
+Have fun.
+
 
 [Samir Benzada](https://github.com/samirbenzada)
