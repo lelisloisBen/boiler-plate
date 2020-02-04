@@ -30,7 +30,7 @@ const Fetch = () => {
                 </div>
                 <div className="row">
                     <div className="col text-center">
-                        {futurama.map((item, index) => {
+                        {!futurama ? "Loading..." : futurama.map((item, index) => {
                             return (
                                 <div key={index}>
                                     {item.Species} || {item.Name} || <img src={item.PicUrl} alt={item.Name} width="30px" />
