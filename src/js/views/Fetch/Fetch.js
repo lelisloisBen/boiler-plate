@@ -23,7 +23,7 @@ const Fetch = () => {
                 <div className="row">
                     <div className="col text-center">
                         <button 
-                            className="btn btn-warning" 
+                            className="btn btn-warning mb-4" 
                             onClick={fetchHandler}
                         >Click To Fecth</button>
                     </div>
@@ -34,9 +34,9 @@ const Fetch = () => {
                             return (
                                 <div key={index} class="alert alert-primary" role="alert">
                                     <span style={{float: "left"}}><img src={item.PicUrl} alt={item.Name} width="30px" /></span>
-                                    <b>Species:</b> {item.Species}
-                                    <br/>
                                     <b>Name:</b> {item.Name} 
+                                    <br/>
+                                    <b>Species:</b> {item.Species}
                                 </div>
                             )
                         })}
