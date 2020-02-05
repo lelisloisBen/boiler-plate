@@ -17,7 +17,6 @@ const Home = () => {
             {!name && !email ? "welcome to Samir's Boiler plate" : <>
                 Hi &nbsp;
                 <span class="badge badge-warning"><b>{name}</b></span>
-                , 
                 <br/>
                 thank you for filling up the form, we will send an email at:  <b>{email}</b>
             </>
