@@ -16,7 +16,7 @@ const Home = () => {
 
             {!name && !email ? 
                 <>
-                    <div class="alert alert-primary" role="alert">
+                    <div class="alert alert-warning" role="alert">
                         welcome to Samir's Boiler plate
                     </div>
                 </>
