@@ -19,6 +19,7 @@ const Home = () => {
                 <span class="badge badge-warning"><b>{name}</b></span>
                 <br/>
                 thank you for filling up the form, we will send an email at:
+                &nbsp;
                 <span class="badge badge-success"><b>{email}</b></span>
                 
             </>
